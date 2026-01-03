@@ -1,5 +1,3 @@
-# Smart-Task-Manager
-A full-stack task management and analytics dashboard built with React, Node.js, PostgreSQL, and JWT authentication.
 
 # 🧠 Smart Task & Analytics Dashboard
 
@@ -67,7 +65,4 @@ Users can manage tasks, track progress visually, and analyze productivity throug
 - PostgreSQL
 - JWT Authentication
 
----
-
-## 📂 Project Structure
 
