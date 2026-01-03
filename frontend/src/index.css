@@ -1,0 +1,90 @@
+.light {
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+.dark {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: #1f2933;
+  color: #f9fafb;
+  border: 1px solid #374151;
+}
+
+.dark button {
+  background-color: #2563eb;
+  color: white;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+/* -------- Global polish -------- */
+
+body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+input,
+select,
+textarea {
+  border-radius: 6px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+.navbar a {
+  color: #2563eb;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.card-header {
+  background-color: transparent;
+  font-weight: 600;
+}
+
+body.dark .navbar {
+  background-color: #000000 !important;
+}
+
+body.dark .navbar a {
+  color: #22c55e;
+}
+
